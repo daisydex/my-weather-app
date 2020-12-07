@@ -15,6 +15,7 @@
   </head>
   <body>
     <div class="container">
+      
           <form class="search-form" id="search-form">
                 <div class="row">
     <div class="col-6">
@@ -27,49 +28,86 @@
         <div class="col-6">
             <button
                 class="btn btn-success w-100"
-                id="current-location-button"
-              >
+                id="current-location-button">
                 Current
               </button>
             </div>
           
     </form>
+    <div class="weather-app-wrapper">
 </br>
+
       <div class="weather-app">
+        <div class="row">
+          <div class="col-8">
           
           <h1 id="city"> Milan</h1>
         <div class="date">
          <ul>
             <li id="today">Sunday, Nov 1</li>
           <li id="description">Rainy</li>
-      
-         <li>Humidity: <span id="humidity"></span>%</li>
-         <li>Windspeed: <span id="wind"></span>km/h</li>
-        </div>
       </ul>
-        
+    </div>
+    
+    </div>
+   
+    </div>
+
 
         <div class="row">
           <div class="col-6">
             <div class="clearfix">
               <img src="" alt="Clear" id="icon" class="float-left"/>
+              
+          <div class="float-left">
             
-            <div class="float-left">
-                 <span class="temperature float-left" id="temperature"></span><span class="units">°C</span>
+            
+            </div>
+            <strong class="temperature float-left" id="temperature"></strong><span class="units"><a href="#" id="celsius-link" class="active">°C</a> |
+            <a href="#" id="fahrenheit-link">°F</a></span>
+            </div>
+            
+            </div>
+            <div class="col-4">
+            
+              <ul id="conditions">
+                <li>Humidity:<span id="humidity"></span>%</li>
+                <li>Windspeed:<span id="wind"></span>km/h</li>
+              </ul>
+            </div>
+            </div>
+            </div>
+
+            
+                  
+                 
+
+                
            
+
+          
+            
+        <small> <a href="https://github.com/daisydex/my-weather-app" target="_blank">Open source code</a> by Daisy</small>
+        </div>
+        </div>
+        
+        </div>
+      
+      
 </div>
-          <div class="col-2">
+        </div>
             
-           
         </div>
-        </div>
-        </div>
-        </div>
+       
+   
+        
+          </div>
+          
           </div>
         </div>
-      </div>
-    </br>
-        <small> <a href="https://github.com/daisydex/my-weather-app" target="_blank">Open source code</a> by Daisy</small>
+        
+    
+    </div>
     </div>
 
     <script src="src/index.js"></script>
