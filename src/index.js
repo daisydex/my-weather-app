@@ -50,7 +50,7 @@ function displayWeatherCondition(response) {
     response.data.wind.speed
   );
   document.querySelector("#description").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
     let iconElement = document.querySelector("#icon");
     iconElement.setAttribute(
     "src",

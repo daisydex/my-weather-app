@@ -20,11 +20,17 @@ li {
   margin: 0;
   padding: 0;
 }
+li:first-letter {
+  text-transform: capitalize;
+}
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+.container {
+  margin: 10px auto;
 }
 .date {
   color: teal;
@@ -36,8 +42,9 @@ ul {
   padding: 0;
 }
 .weather-app-wrapper {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 650px;
+
+  margin: 0;
   padding: 0 auto;
 }
 
@@ -45,7 +52,7 @@ ul {
   border: 2px solid #9771f4;
   padding: 20px 20px 20px 25px;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 650px;
   border-radius: 8px;
   text-align: left;
 }
