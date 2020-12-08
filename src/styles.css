@@ -6,6 +6,14 @@ h1 {
   font-weight: 400px;
 }
 
+h4 {
+  color: teal;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
+    Arial, sans-serif, Inv Maison Neue, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  font-weight: 200px;
+}
+
 button {
   color: #9771f4;
   padding: 10px;
